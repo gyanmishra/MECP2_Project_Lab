@@ -33,6 +33,7 @@ $ cd MECP2_Project/scripts/shell_scripts/
 ```
 
 **Step3 :** open `R/MECP2_project.qmd` in Rstudio
+
 Run all the code in the data processing step.
 
 **Step4 :**
