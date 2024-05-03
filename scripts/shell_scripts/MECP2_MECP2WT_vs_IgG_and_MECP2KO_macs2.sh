@@ -1,13 +1,4 @@
-#!/bin/bash
-
-#SBATCH --job-name macs2
-#SBATCH -N 1
-#SBATCH --partition=super
-#SBATCH -t 0-12:0:0
-#SBATCH -o ../../../CUT_and_RUN/results/logs/MECP2_MECP2WT_vs_IgG_and_MECP2KO.out
-#SBATCH -o ../../../CUT_and_RUN/results/logs/MECP2_MECP2WT_vs_IgG_and_MECP2KO.err
-#SBATCH --mail-type ALL
-#SBATCH --mail-user GyanPrakash.Mishra.edu
+#!/usr/bin/bash
 
 
 module load parallel/20150122 

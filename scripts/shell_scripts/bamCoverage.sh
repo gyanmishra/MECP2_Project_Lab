@@ -1,28 +1,4 @@
-#!/bin/bash
-
-#SBATCH --job-name bamCov
-
-# Name of the SLURM partition that this job should run on.
-#SBATCH -p super       # partition (queue)
-# Number of nodes required to run this job
-#SBATCH -N 1
-
-# Memory (RAM) requirement/limit in MB.
-#SBATCH --mem 254976      # Memory Requirement (MB)
-
-# Time limit for the job in the format Days-H:M:S
-# A job that reaches its time limit will be cancelled.
-# Specify an accurate time limit for efficient scheduling so your job runs promptly.
-#SBATCH -t 0-2:0:0
-
-# The standard output and errors from commands will be written to these files.
-# %j in the filename will be replace with the job number when it is submitted.
-#SBATCH -o ../../results/log/bamCoverage.out
-#SBATCH -e ../../results/log/bamCoverage.err
-
-# Send an email when the job status changes, to the specfied address.
-#SBATCH --mail-type ALL
-#SBATCH --mail-user GyanPrakash.Mishra@UTSouthwestern.edu
+#!/usr/bin/bash
 
 module load parallel/20150122
 module load bedtools/2.29.2

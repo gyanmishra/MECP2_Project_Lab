@@ -1,13 +1,4 @@
-#!/bin/bash
-
-#SBATCH -p 512GB                      # partition name
-#SBATCH -c 8                         # Request N cores 
-#SBATCH -t 0-16:00:00                 # hours:minutes time after which job will be killed 
-#SBATCH --mem 501760                  # total amount of memory requested [>100G recommended]
-#SBATCH --job-name SRARun             # Job name
-#SBATCH -o ../../results/log/G118E.out    # File to which standard out will be written
-#SBATCH -e ../../results/log/G118E.err    # File to which standard err will be written
-
+#!/usr/bin/bash
 
 module load UCSC_userApps/v317
 module load parallel/20150122

@@ -14,13 +14,13 @@ Following published datasets has been used in this study
 | 7\.        | RNA-seq (Supplementary Table S1)                                     | [Boxer et. al, 2020](https://www.sciencedirect.com/science/article/pii/S109727651930810X?via%3Dihub#app2) |  processed file was used                        |
 | 8\.        | snRNA-seq (Supplementary Table S7)                                     | [Renthal et. al, 2018](https://www.nature.com/articles/s41593-018-0270-6#citeas) |  processed file was used                        |
 
-*Note : Reserve node before running a shell scripts*
+*Note : Reserve node before running a shell script*
 ```
 srun --partition=super --nodes=8 --pty --time=5:00:00 /bin/bash
 ```
 **Step1 :**
 ```bash
-$ cd scripts/shell_script
+$ cd MECP2_Project/scripts/shell_scripts/
 [shell_script]$ bash getRequiredFiles.sh
 ```
 
