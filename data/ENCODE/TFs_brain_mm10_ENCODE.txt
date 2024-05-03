@@ -1,0 +1,10 @@
+"https://www.encodeproject.org/metadata/?assay_title=TF+ChIP-seq&replicates.library.biosample.donor.organism.scientific_name=Mus+musculus&biosample_ontology.term_name=brain&replicates.library.biosample.life_stage=adult&replicates.library.biosample.life_stage=postnatal&replicates.library.biosample.life_stage=embryonic&biosample_ontology.term_name=forebrain&type=Experiment&files.analyses.status=released&files.preferred_default=true"
+https://www.encodeproject.org/files/ENCFF869PRP/@@download/ENCFF869PRP.bigWig
+https://www.encodeproject.org/files/ENCFF049KCC/@@download/ENCFF049KCC.bed.gz
+https://www.encodeproject.org/files/ENCFF443GCJ/@@download/ENCFF443GCJ.bigBed
+https://www.encodeproject.org/files/ENCFF421PAU/@@download/ENCFF421PAU.bigWig
+https://www.encodeproject.org/files/ENCFF281QMV/@@download/ENCFF281QMV.bed.gz
+https://www.encodeproject.org/files/ENCFF950QPK/@@download/ENCFF950QPK.bigBed
+https://www.encodeproject.org/files/ENCFF890CFN/@@download/ENCFF890CFN.bigWig
+https://www.encodeproject.org/files/ENCFF430PPJ/@@download/ENCFF430PPJ.bed.gz
+https://www.encodeproject.org/files/ENCFF582ODI/@@download/ENCFF582ODI.bigBed
