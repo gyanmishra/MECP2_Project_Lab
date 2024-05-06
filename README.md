@@ -19,10 +19,6 @@ Following published datasets has been used in this study
 srun --partition=super --nodes=8 --pty --time=5:00:00 /bin/bash
 ```
 
-```
-< Input directories > /archive/OBI/Neuroinformatics_Core/Stroud_lab/shared/MECP2_project_Gyan
-```
-
 **Step1 :** 
 ```
 $ git clone https://github.com/gyanmishra/MECP2_project.git
@@ -42,6 +38,8 @@ $ cd MECP2_Project_Lab/scripts/shell_scripts/
 **Step3 :**
 
 ```bash
+< Input directory > /archive/OBI/Neuroinformatics_Core/Stroud_lab/shared/MECP2_project_Gyan/
+
 [shell_script]$ bash Figure1.sh < Input directory > 
 [shell_script]$ bash Figure2.sh < Input directory >
 [shell_script]$ bash Figure3.sh < Input directory >
