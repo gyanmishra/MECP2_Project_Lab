@@ -18,39 +18,36 @@ Following published datasets has been used in this study
 ```
 srun --partition=super --nodes=8 --pty --time=5:00:00 /bin/bash
 ```
-**Step1 :**
+
+```
+< Input directories > /archive/OBI/Neuroinformatics_Core/Stroud_lab/shared/MECP2_project_Gyan
+```
+
+**Step1 :** 
+```
+$ git clone https://github.com/gyanmishra/MECP2_project.git
+$ cd MECP2_Project_Lab/scripts/shell_scripts/
+```
+
+**Step2 :** prerequisite
 ```bash
-$ cd MECP2_Project/scripts/shell_scripts/
+
+[shell_script]$ conda create deeptools3.1.2 
+[shell_script]$ conda activate deeptools3.1.2
+[shell_script]$ conda install deeptools==3.1.2
 [shell_script]$ bash getRequiredFiles.sh
 ```
 
-**Step2 :**
+
+**Step3 :**
 
 ```bash
-[shell_script]$ perl Process_CUTandRUN.pl ../../data/CUTandRUN_seq_Data.txt
-[shell_script]$ bash MECP2_MECP2WT_vs_IgG_and_MECP2KO_macs2.sh
-[shell_script]$ bash process_peak_files.sh
+[shell_script]$ bash Figure1.sh < Input directory > 
+[shell_script]$ bash Figure2.sh < Input directory >
+[shell_script]$ bash Figure3.sh < Input directory >
+[shell_script]$ bash Supplementary_figure_9.sh 
 ```
 
-**Step3 :** open `R/MECP2_project.qmd` in Rstudio
+**Step4 :** open `R/MECP2_project.qmd` in Rstudio
 
-Run all the code in the data processing step.
-
-**Step4 :**
-```bash
-[shell_script]$ perl callPeaks_Macs2.pl
-[shell_script]$ bash bamCoverage.sh
-[shell_script]$ perl Process_MECP2_ChIPseq.pl
-```
-**Step5 :**
-
-```bash
-[shell_script]$ bash MECP2_G118E_CNR.sh
-[shell_script]$ bash Process_GEOdatasets.sh
-[shell_script]$ bash Process_GSE139509.sh
-[shell_script]$ bash Process_ENCODE.sh
-[shell_script]$ bash Figure1.sh
-[shell_script]$ bash Figure2.sh
-[shell_script]$ bash Figure3.sh
-[shell_script]$ bash Supplementary_figure_9.sh
-```
+Run all the code one by one for each figure including data processing step. 

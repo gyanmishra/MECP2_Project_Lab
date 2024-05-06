@@ -1,0 +1,388 @@
+group	CellType	NEURONAL/NON-NEURONAL
+108_Pvalb	Pvalb	GABAergic Neuron
+229_L6 IT CTX	L6 IT CTX	Glutamatergic Neuron
+26_Ntng1 HPF	Ntng1 HPF	GABAergic Neuron
+67_Sst	Sst	GABAergic Neuron
+6_Lamp5 Lhx6	Lamp5 Lhx6	GABAergic Neuron
+111_Pvalb	Pvalb	GABAergic Neuron
+359_CA2-IG-FC	CA2-IG-FC	Glutamatergic Neuron
+238_Car3	Car3	Glutamatergic Neuron
+347_CA1-do	CA1-do	Glutamatergic Neuron
+219_L6 IT CTX	L6 IT CTX	Glutamatergic Neuron
+30_Ntng1 HPF	Ntng1 HPF	GABAergic Neuron
+174_IT HATA	IT HATA	Glutamatergic Neuron
+227_L6 IT CTX	L6 IT CTX	Glutamatergic Neuron
+374_Oligo	Oligo	Non-Neuronal
+102_Sst HPF	Sst HPF	GABAergic Neuron
+117_Pvalb	Pvalb	GABAergic Neuron
+123_Pvalb Vipr2	Pvalb Vipr2	GABAergic Neuron
+351_CA3-ve	CA3-ve	Glutamatergic Neuron
+66_Sst	Sst	GABAergic Neuron
+223_L6 IT CTX	L6 IT CTX	Glutamatergic Neuron
+28_Ntng1 HPF	Ntng1 HPF	GABAergic Neuron
+13_Lamp5	Lamp5	GABAergic Neuron
+86_Sst	Sst	GABAergic Neuron
+202_L5 IT CTX	L5 IT CTX	Glutamatergic Neuron
+303_L6b CTX	L6b CTX	Glutamatergic Neuron
+218_L6 IT CTX	L6 IT CTX	Glutamatergic Neuron
+145_L2/3 IT PAR	L2/3 IT PAR	Glutamatergic Neuron
+279_L6 CT CTX	L6 CT CTX	Glutamatergic Neuron
+354_CA3-ve	CA3-ve	Glutamatergic Neuron
+228_L6 IT CTX	L6 IT CTX	Glutamatergic Neuron
+262_L4 RSP-ACA	L4 RSP-ACA	Glutamatergic Neuron
+211_L5/6 IT TPE-ENT	L5/6 IT TPE-ENT	Glutamatergic Neuron
+253_L5 PT CTX	L5 PT CTX	Glutamatergic Neuron
+32_Sncg	Sncg	GABAergic Neuron
+271_NP SUB	NP SUB	Glutamatergic Neuron
+59_Vip Igfbp6	Vip Igfbp6	GABAergic Neuron
+75_Sst	Sst	GABAergic Neuron
+344_CA1	CA1	Glutamatergic Neuron
+62_Vip Igfbp6	Vip Igfbp6	GABAergic Neuron
+372_Oligo	Oligo	Non-Neuronal
+118_Pvalb	Pvalb	GABAergic Neuron
+137_L3 IT ENTm	L3 IT ENTm	Glutamatergic Neuron
+144_L2/3 IT PAR	L2/3 IT PAR	Glutamatergic Neuron
+387_Micro-PVM	Micro-PVM	Non-Neuronal
+120_Pvalb	Pvalb	GABAergic Neuron
+251_L5 PT CTX	L5 PT CTX	Glutamatergic Neuron
+29_Ntng1 HPF	Ntng1 HPF	GABAergic Neuron
+331_CA1-ProS	CA1-ProS	Glutamatergic Neuron
+71_Sst	Sst	GABAergic Neuron
+322_ProS	ProS	Glutamatergic Neuron
+84_Sst	Sst	GABAergic Neuron
+127_L2 IT APr	L2 IT APr	Glutamatergic Neuron
+80_Sst	Sst	GABAergic Neuron
+257_L5 PT CTX	L5 PT CTX	Glutamatergic Neuron
+300_L6b ENT	L6b ENT	Glutamatergic Neuron
+46_Vip	Vip	GABAergic Neuron
+169_L2/3 IT CTX	L2/3 IT CTX	Glutamatergic Neuron
+85_Sst	Sst	GABAergic Neuron
+132_L2 IT RSPv-POST-PRE	L2 IT RSPv-POST-PRE	Glutamatergic Neuron
+222_L6 IT CTX	L6 IT CTX	Glutamatergic Neuron
+328_ProS	ProS	Glutamatergic Neuron
+368_Oligo	Oligo	Non-Neuronal
+384_VLMC	VLMC	Non-Neuronal
+114_Pvalb	Pvalb	GABAergic Neuron
+8_Lamp5 Lhx6	Lamp5 Lhx6	GABAergic Neuron
+126_L2 IT APr	L2 IT APr	Glutamatergic Neuron
+65_Sst Chodl	Sst Chodl	GABAergic Neuron
+234_L6 IT ENTl	L6 IT ENTl	Neuronal
+239_L5 PT CTX	L5 PT CTX	Neuronal
+277_NP PPP	NP PPP	Neuronal
+316_L6b CTX	L6b CTX	Neuronal
+363_DG	DG	Neuronal
+11_Lamp5	Lamp5	Neuronal
+307_L6b CTX	L6b CTX	Neuronal
+52_Vip	Vip	Neuronal
+199_L5 IT CTX	L5 IT CTX	Neuronal
+221_L6 IT CTX	L6 IT CTX	Neuronal
+320_SUB	SUB	Neuronal
+256_L5 PT CTX	L5 PT CTX	Neuronal
+179_L4 IT CTX	L4 IT CTX	Neuronal
+186_L4/5 IT CTX	L4/5 IT CTX	Neuronal
+334_CA1-ve	CA1-ve	Neuronal
+64_Sst Chodl	Sst Chodl	Neuronal
+31_Sncg	Sncg	Neuronal
+273_NP SUB	NP SUB	Neuronal
+35_Sncg	Sncg	Neuronal
+133_L2 IT RSPv-POST-PRE	L2 IT RSPv-POST-PRE	Neuronal
+197_L5 IT CTX	L5 IT CTX	Neuronal
+317_L6b CTX	L6b CTX	Neuronal
+134_L2 IT RSP-ACA	L2 IT RSP-ACA	Neuronal
+56_Vip HPF	Vip HPF	Neuronal
+313_L6b CTX	L6b CTX	Neuronal
+100_Sst	Sst	Neuronal
+43_Vip	Vip	Neuronal
+19_Pax6	Pax6	Neuronal
+224_L6 IT CTX	L6 IT CTX	Neuronal
+286_L6 CT CTX	L6 CT CTX	Neuronal
+287_L6 CT CTX	L6 CT CTX	Neuronal
+61_Vip Igfbp6	Vip Igfbp6	Neuronal
+185_L4/5 IT CTX	L4/5 IT CTX	Neuronal
+308_L6b RHP	L6b RHP	Neuronal
+14_Lamp5	Lamp5	Neuronal
+37_Sncg	Sncg	Neuronal
+83_Sst	Sst	Neuronal
+119_Pvalb	Pvalb	Neuronal
+198_L5 IT CTX	L5 IT CTX	Neuronal
+27_Ntng1 HPF	Ntng1 HPF	Neuronal
+296_CT SUB	CT SUB	Neuronal
+12_Lamp5	Lamp5	Neuronal
+301_L6b ENT	L6b ENT	Neuronal
+272_NP SUB	NP SUB	Neuronal
+293_L6 CT CTX	L6 CT CTX	Neuronal
+15_Lamp5	Lamp5	Neuronal
+162_L2/3 IT CTX	L2/3 IT CTX	Neuronal
+213_L5/6 IT TPE-ENT	L5/6 IT TPE-ENT	Neuronal
+3_Meis2	Meis2	Neuronal
+115_Pvalb	Pvalb	Neuronal
+17_Lamp5	Lamp5	Neuronal
+143_L2/3 IT PAR	L2/3 IT PAR	Neuronal
+209_L5/6 IT CTX	L5/6 IT CTX	Neuronal
+358_CA3-do	CA3-do	Neuronal
+175_IT HATA	IT HATA	Neuronal
+326_ProS	ProS	Neuronal
+189_L4/5 IT CTX	L4/5 IT CTX	Neuronal
+371_Oligo	Oligo	Non-Neuronal
+246_L5 PT CTX	L5 PT CTX	Neuronal
+283_L6 CT CTX	L6 CT CTX	Neuronal
+352_CA3-ve	CA3-ve	Neuronal
+378_Astro	Astro	Non-Neuronal
+68_Sst	Sst	Neuronal
+60_Vip Igfbp6	Vip Igfbp6	Neuronal
+159_L2/3 IT AI	L2/3 IT AI	Neuronal
+176_IT HATA	IT HATA	Neuronal
+2_Meis2	Meis2	Neuronal
+337_CA1	CA1	Neuronal
+140_L3 IT ENTl	L3 IT ENTl	Neuronal
+173_L2/3 IT ProS	L2/3 IT ProS	Neuronal
+304_L6b CTX	L6b CTX	Neuronal
+41_Vip	Vip	Neuronal
+103_Sst HPF	Sst HPF	Neuronal
+78_Sst HPF	Sst HPF	Neuronal
+121_Pvalb	Pvalb	Neuronal
+131_L2/3 IT POST-PRE	L2/3 IT POST-PRE	Neuronal
+138_L3 IT ENTm	L3 IT ENTm	Neuronal
+195_L5 IT RSP-ACA	L5 IT RSP-ACA	Neuronal
+36_Sncg	Sncg	Neuronal
+166_L2/3 IT CTX	L2/3 IT CTX	Neuronal
+242_L5 PT CTX	L5 PT CTX	Neuronal
+290_L6 CT CTX	L6 CT CTX	Neuronal
+57_Vip Igfbp6	Vip Igfbp6	Neuronal
+177_IT HATA	IT HATA	Neuronal
+18_Lamp5	Lamp5	Neuronal
+255_L5 PT CTX	L5 PT CTX	Neuronal
+154_L2/3 IT ENTl	L2/3 IT ENTl	Neuronal
+168_L2/3 IT CTX	L2/3 IT CTX	Neuronal
+215_L5/6 IT TPE-ENT	L5/6 IT TPE-ENT	Neuronal
+240_L5 PT CTX	L5 PT CTX	Neuronal
+76_Sst	Sst	Neuronal
+116_Pvalb	Pvalb	Neuronal
+1_CR	CR	Neuronal
+210_L5/6 IT TPE-ENT	L5/6 IT TPE-ENT	Neuronal
+245_L5 PT CTX	L5 PT CTX	Neuronal
+297_CT SUB	CT SUB	Neuronal
+96_Sst	Sst	Neuronal
+129_L2/3 IT POST-PRE	L2/3 IT POST-PRE	Neuronal
+236_Car3	Car3	Neuronal
+55_Vip HPF	Vip HPF	Neuronal
+21_Sncg	Sncg	Neuronal
+258_L5 PT CTX	L5 PT CTX	Neuronal
+330_CA1-ProS	CA1-ProS	Neuronal
+110_Pvalb	Pvalb	Neuronal
+188_L4/5 IT CTX	L4/5 IT CTX	Neuronal
+243_L5 PT CTX	L5 PT CTX	Neuronal
+268_L5/6 NP CTX	L5/6 NP CTX	Neuronal
+311_L6b CTX	L6b CTX	Neuronal
+7_Lamp5 Lhx6	Lamp5 Lhx6	Neuronal
+353_CA3-ve	CA3-ve	Neuronal
+149_L2 IT ENTm	L2 IT ENTm	Neuronal
+375_Oligo	Oligo	Non-Neuronal
+105_Sst HPF	Sst HPF	Neuronal
+10_Lamp5	Lamp5	Neuronal
+142_L2/3 IT PAR	L2/3 IT PAR	Neuronal
+233_L6 IT ENTl	L6 IT ENTl	Neuronal
+20_Pax6	Pax6	Neuronal
+94_Sst	Sst	Neuronal
+155_L2/3 IT ENTl	L2/3 IT ENTl	Neuronal
+265_L5/6 NP CTX	L5/6 NP CTX	Neuronal
+157_L2/3 IT ENTl	L2/3 IT ENTl	Neuronal
+220_L6 IT CTX	L6 IT CTX	Neuronal
+335_CA1-ve	CA1-ve	Neuronal
+104_Sst HPF	Sst HPF	Neuronal
+274_NP SUB	NP SUB	Neuronal
+385_VLMC	VLMC	Non-Neuronal
+40_Vip	Vip	Neuronal
+193_L4/5 IT CTX	L4/5 IT CTX	Neuronal
+135_L3 IT ENTm	L3 IT ENTm	Neuronal
+370_Oligo	Oligo	Non-Neuronal
+165_L2/3 IT CTX	L2/3 IT CTX	Neuronal
+237_Car3	Car3	Neuronal
+254_L5 PT CTX	L5 PT CTX	Neuronal
+232_L6 IT CTX	L6 IT CTX	Neuronal
+74_Sst	Sst	Neuronal
+225_L6 IT CTX	L6 IT CTX	Neuronal
+292_L6 CT CTX	L6 CT CTX	Neuronal
+181_L4 IT CTX	L4 IT CTX	Neuronal
+380_SMC-Peri	SMC-Peri	Non-Neuronal
+45_Vip	Vip	Neuronal
+87_Sst	Sst	Neuronal
+184_L4/5 IT CTX	L4/5 IT CTX	Neuronal
+82_Sst	Sst	Neuronal
+327_ProS	ProS	Neuronal
+163_L2/3 IT CTX	L2/3 IT CTX	Neuronal
+187_L4/5 IT CTX	L4/5 IT CTX	Neuronal
+192_L4/5 IT CTX	L4/5 IT CTX	Neuronal
+266_L5/6 NP CTX	L5/6 NP CTX	Neuronal
+95_Sst	Sst	Neuronal
+172_L2/3 IT ProS	L2/3 IT ProS	Neuronal
+356_CA3-do	CA3-do	Neuronal
+98_Sst	Sst	Neuronal
+106_Sst HPF	Sst HPF	Neuronal
+147_L2 IT ENTm	L2 IT ENTm	Neuronal
+289_L6 CT CTX	L6 CT CTX	Neuronal
+383_VLMC	VLMC	Non-Neuronal
+24_Sncg	Sncg	Neuronal
+338_CA1	CA1	Neuronal
+369_Oligo	Oligo	Non-Neuronal
+196_L5 IT CTX	L5 IT CTX	Neuronal
+38_Sncg	Sncg	Neuronal
+107_Sst HPF	Sst HPF	Neuronal
+269_L5/6 NP CTX	L5/6 NP CTX	Neuronal
+231_L6 IT CTX	L6 IT CTX	Neuronal
+261_L4 RSP-ACA	L4 RSP-ACA	Neuronal
+360_CA2-IG-FC	CA2-IG-FC	Neuronal
+70_Sst	Sst	Neuronal
+79_Sst	Sst	Neuronal
+88_Sst	Sst	Neuronal
+180_L4 IT CTX	L4 IT CTX	Neuronal
+252_L5 PT CTX	L5 PT CTX	Neuronal
+295_CT SUB	CT SUB	Neuronal
+58_Vip Igfbp6	Vip Igfbp6	Neuronal
+9_Lamp5 Lhx6	Lamp5 Lhx6	Neuronal
+101_Sst	Sst	Neuronal
+355_CA3-ve	CA3-ve	Neuronal
+128_L2 IT APr	L2 IT APr	Neuronal
+130_L2/3 IT POST-PRE	L2/3 IT POST-PRE	Neuronal
+158_L2/3 IT AI	L2/3 IT AI	Neuronal
+25_Sncg	Sncg	Neuronal
+281_L6 CT CTX	L6 CT CTX	Neuronal
+33_Sncg	Sncg	Neuronal
+309_L6b RHP	L6b RHP	Neuronal
+230_L6 IT CTX	L6 IT CTX	Neuronal
+148_L2 IT ENTm	L2 IT ENTm	Neuronal
+54_Vip HPF	Vip HPF	Neuronal
+206_L5/6 IT CTX	L5/6 IT CTX	Neuronal
+23_Sncg	Sncg	Neuronal
+278_L6 CT CTX	L6 CT CTX	Neuronal
+183_L4/5 IT CTX	L4/5 IT CTX	Neuronal
+204_L5/6 IT CTX	L5/6 IT CTX	Neuronal
+336_CA1-ve	CA1-ve	Neuronal
+341_CA1	CA1	Neuronal
+141_L2/3 IT PAR	L2/3 IT PAR	Neuronal
+212_L5/6 IT TPE-ENT	L5/6 IT TPE-ENT	Neuronal
+362_DG	DG	Neuronal
+136_L3 IT ENTm	L3 IT ENTm	Neuronal
+312_L6b CTX	L6b CTX	Neuronal
+97_Sst	Sst	Neuronal
+161_L2/3 IT ENTl	L2/3 IT ENTl	Neuronal
+164_L2/3 IT CTX	L2/3 IT CTX	Neuronal
+93_Sst	Sst	Neuronal
+366_Oligo	Oligo	Non-Neuronal
+340_CA1	CA1	Neuronal
+122_Pvalb Vipr2	Pvalb Vipr2	Neuronal
+69_Sst	Sst	Neuronal
+77_Sst HPF	Sst HPF	Neuronal
+150_L2 IT ENTm	L2 IT ENTm	Neuronal
+339_CA1	CA1	Neuronal
+44_Vip	Vip	Neuronal
+109_Pvalb	Pvalb	Neuronal
+275_NP PPP	NP PPP	Neuronal
+5_Lamp5 Lhx6	Lamp5 Lhx6	Neuronal
+267_L5/6 NP CTX	L5/6 NP CTX	Neuronal
+22_Sncg	Sncg	Neuronal
+191_L4/5 IT CTX	L4/5 IT CTX	Neuronal
+325_ProS	ProS	Neuronal
+49_Vip	Vip	Neuronal
+4_Meis2 HPF	Meis2 HPF	Neuronal
+205_L5/6 IT CTX	L5/6 IT CTX	Neuronal
+16_Lamp5	Lamp5	Neuronal
+63_Sst Chodl	Sst Chodl	Neuronal
+318_SUB	SUB	Neuronal
+203_L5/6 IT CTX	L5/6 IT CTX	Neuronal
+319_SUB	SUB	Neuronal
+350_Mossy	Mossy	Neuronal
+361_DG	DG	Neuronal
+276_NP PPP	NP PPP	Neuronal
+73_Sst	Sst	Neuronal
+263_L5 PPP	L5 PPP	Neuronal
+291_L6 CT CTX	L6 CT CTX	Neuronal
+373_Oligo	Oligo	Non-Neuronal
+160_L2/3 IT ENTl	L2/3 IT ENTl	Neuronal
+367_Oligo	Oligo	Non-Neuronal
+299_L6 CT ENT	L6 CT ENT	Neuronal
+323_ProS	ProS	Neuronal
+146_L2 IT ENTm	L2 IT ENTm	Neuronal
+153_L2/3 IT ENTl	L2/3 IT ENTl	Neuronal
+208_L5/6 IT CTX	L5/6 IT CTX	Neuronal
+388_Micro-PVM	Micro-PVM	Non-Neuronal
+47_Vip	Vip	Neuronal
+264_L5/6 NP CTX	L5/6 NP CTX	Neuronal
+280_L6 CT CTX	L6 CT CTX	Neuronal
+91_Sst	Sst	Neuronal
+349_Mossy	Mossy	Neuronal
+89_Sst	Sst	Neuronal
+348_CA1-do	CA1-do	Neuronal
+333_CA1-ProS	CA1-ProS	Neuronal
+152_L2/3 IT ENTl	L2/3 IT ENTl	Neuronal
+386_Micro-PVM	Micro-PVM	Non-Neuronal
+42_Vip	Vip	Neuronal
+310_L6b RHP	L6b RHP	Neuronal
+343_CA1	CA1	Neuronal
+51_Vip	Vip	Neuronal
+151_L2 IT ENTl	L2 IT ENTl	Neuronal
+170_L2/3 IT CTX	L2/3 IT CTX	Neuronal
+182_L4/5 IT CTX	L4/5 IT CTX	Neuronal
+270_L5/6 NP CT CTX	L5/6 NP CT CTX	Neuronal
+249_L5 PT CTX	L5 PT CTX	Neuronal
+285_L6 CT CTX	L6 CT CTX	Neuronal
+302_L6b ENT	L6b ENT	Neuronal
+34_Sncg	Sncg	Neuronal
+113_Pvalb	Pvalb	Neuronal
+124_L2 IT APr	L2 IT APr	Neuronal
+214_L5/6 IT PFC	L5/6 IT PFC	Neuronal
+247_L5 PT CTX	L5 PT CTX	Neuronal
+346_CA1-do	CA1-do	Neuronal
+305_L6b CTX	L6b CTX	Neuronal
+250_L5 PT CTX	L5 PT CTX	Neuronal
+194_L5 IT RSP-ACA	L5 IT RSP-ACA	Neuronal
+282_L6 CT CTX	L6 CT CTX	Neuronal
+48_Vip	Vip	Neuronal
+244_L5 PT CTX	L5 PT CTX	Neuronal
+259_L5 PT CTX	L5 PT CTX	Neuronal
+332_CA1-ProS	CA1-ProS	Neuronal
+345_CA1	CA1	Neuronal
+306_L6b CTX	L6b CTX	Neuronal
+92_Sst	Sst	Neuronal
+112_Pvalb	Pvalb	Neuronal
+156_L2/3 IT ENTl	L2/3 IT ENTl	Neuronal
+241_L5 PT CTX	L5 PT CTX	Neuronal
+364_DG	DG	Neuronal
+379_Endo	Endo	Non-Neuronal
+53_Vip	Vip	Neuronal
+171_L2/3 IT CTX	L2/3 IT CTX	Neuronal
+357_CA3-do	CA3-do	Neuronal
+382_SMC-Peri	SMC-Peri	Non-Neuronal
+90_Sst	Sst	Neuronal
+248_L5 PT CTX	L5 PT CTX	Neuronal
+365_Oligo	Oligo	Non-Neuronal
+125_L2 IT APr	L2 IT APr	Neuronal
+314_L6b CTX	L6b CTX	Neuronal
+315_L6b CTX	L6b CTX	Neuronal
+235_L6 IT ENTl	L6 IT ENTl	Neuronal
+167_L2/3 IT CTX	L2/3 IT CTX	Neuronal
+216_L5/6 IT TPE-ENT	L5/6 IT TPE-ENT	Neuronal
+329_CA1-ProS	CA1-ProS	Neuronal
+81_Sst	Sst	Neuronal
+39_Sncg	Sncg	Neuronal
+139_L3 IT ENTl	L3 IT ENTl	Neuronal
+321_SUB	SUB	Neuronal
+99_Sst	Sst	Neuronal
+72_Sst	Sst	Neuronal
+201_L5 IT CTX	L5 IT CTX	Neuronal
+200_L5 IT CTX	L5 IT CTX	Neuronal
+226_L6 IT CTX	L6 IT CTX	Neuronal
+288_L6 CT CTX	L6 CT CTX	Neuronal
+294_CT SUB	CT SUB	Neuronal
+376_Astro	Astro	Non-Neuronal
+217_L6 IT CTX	L6 IT CTX	Neuronal
+50_Vip	Vip	Neuronal
+190_L4/5 IT CTX	L4/5 IT CTX	Neuronal
+207_L5/6 IT CTX	L5/6 IT CTX	Neuronal
+342_CA1	CA1	Neuronal
+260_L5 PT CTX	L5 PT CTX	Neuronal
+324_ProS	ProS	Neuronal
+178_L4 IT CTX	L4 IT CTX	Neuronal
+284_L6 CT CTX	L6 CT CTX	Neuronal
+377_Astro	Astro	Non-Neuronal
+298_L6 CT ENT	L6 CT ENT	Neuronal

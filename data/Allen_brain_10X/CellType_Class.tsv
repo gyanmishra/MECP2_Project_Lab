@@ -1,0 +1,388 @@
+Cell Type	Class	Other details	Projection	Class marker
+Glut: Cajal-Retzius cells	Glutamatergic	Other	NA	CR Trp73
+GABA: Meis2 	GABAergic	Other	NA	Meis2
+GABA: Meis2 	GABAergic	Other	NA	Meis2
+GABA: Meis2 	GABAergic	CGE	NA	Meis2 HPF
+GABA: Lamp5	GABAergic	CGE	NA	Lamp5 Lhx6
+GABA: Lamp5	GABAergic	CGE	NA	Lamp5 Lhx6
+GABA: Lamp5	GABAergic	CGE	NA	Lamp5 Lhx6
+GABA: Lamp5 	GABAergic	CGE	NA	Lamp5 Lhx6
+GABA: Lamp5 	GABAergic	CGE	NA	Lamp5 Lhx6
+GABA: Lamp5 	GABAergic	CGE	NA	Lamp5 Pdlim5
+GABA: Lamp5 	GABAergic	CGE	NA	Lamp5 Pdlim5
+GABA: Lamp5 	GABAergic	CGE	NA	Lamp5 Pdlim5
+GABA: Lamp5 	GABAergic	CGE	NA	Lamp5 Egln3
+GABA: Lamp5 	GABAergic	CGE	NA	Lamp5 Egln3
+GABA: Lamp5 	GABAergic	CGE	NA	Lamp5 Egln3
+GABA: Lamp5 	GABAergic	CGE	NA	Lamp5 Egln3
+GABA: Lamp5 	GABAergic	CGE	NA	Lamp5 Egln3
+GABA: Lamp5	GABAergic	CGE	NA	Lamp5 Egln3
+GABA: Pax6 	GABAergic	CGE	NA	Pax6
+GABA: Pax6 	GABAergic	CGE	NA	Pax6
+GABA: Sncg 	GABAergic	CGE	NA	Sncg Serpinf1
+GABA: Sncg 	GABAergic	CGE	NA	Sncg Serpinf1
+GABA: Sncg 	GABAergic	CGE	NA	Sncg Serpinf1
+GABA: Sncg 	GABAergic	CGE	NA	Sncg Serpinf1
+GABA: Sncg 	GABAergic	CGE	NA	Sncg Krt73
+GABA: Ndnf Hippocampal formation	GABAergic	CGE	NA	Ntng1 HPF
+GABA: Ndnf Hippocampal formation	GABAergic	CGE	NA	Ntng1 HPF
+GABA: Ndnf Hippocampal formation	GABAergic	CGE	NA	Ntng1 HPF
+GABA: Ndnf Hippocampal formation	GABAergic	CGE	NA	Ntng1 HPF
+GABA: Ndnf Hippocampal formation	GABAergic	CGE	NA	Ntng1 HPF
+GABA: Sncg 	GABAergic	CGE	NA	Sncg Krt73
+GABA: Sncg 	GABAergic	CGE	NA	Sncg Krt73
+GABA: Sncg 	GABAergic	CGE	NA	Sncg Krt73
+GABA: Sncg 	GABAergic	CGE	NA	Sncg Krt73
+GABA: Sncg 	GABAergic	CGE	NA	Sncg Jam2 Npy2r
+GABA: Sncg 	GABAergic	CGE	NA	Sncg Jam2 Npy2r
+GABA: Sncg 	GABAergic	CGE	NA	Sncg Jam2 Npy2r
+GABA: Sncg 	GABAergic	CGE	NA	Sncg Jam2 Npy2r
+GABA: Sncg 	GABAergic	CGE	NA	Sncg Jam2 Npy2r
+GABA: Vip 	GABAergic	CGE	NA	Vip Serpinf1
+GABA: Vip 	GABAergic	CGE	NA	Vip Serpinf1
+GABA: Vip 	GABAergic	CGE	NA	Vip Pcdh11x
+GABA: Vip 	GABAergic	CGE	NA	Vip Pcdh11x
+GABA: Vip 	GABAergic	CGE	NA	Vip Mybpc1
+GABA: Vip 	GABAergic	CGE	NA	Vip Pcdh11x
+GABA: Vip 	GABAergic	CGE	NA	Vip Pcdh11x
+GABA: Vip 	GABAergic	CGE	NA	Vip Pcdh11x
+GABA: Vip 	GABAergic	CGE	NA	Vip Cp Rspo1
+GABA: Vip 	GABAergic	CGE	NA	Vip Cp Rspo1
+GABA: Vip 	GABAergic	CGE	NA	Vip Cp Rspo1
+GABA: Vip 	GABAergic	CGE	NA	Vip Cp Rspo1
+GABA: Vip 	GABAergic	CGE	NA	Vip Lmo1
+GABA: Vip 	GABAergic	CGE	NA	Vip Lmo1
+GABA: Vip Hippocampal formation	GABAergic	CGE	NA	Vip Cbln4 HPF
+GABA: Vip Hippocampal formation	GABAergic	CGE	NA	Vip Cbln4 HPF
+GABA: Vip Hippocampal formation	GABAergic	CGE	NA	Vip Cbln4 HPF
+GABA: Vip 	GABAergic	CGE	NA	Vip Igfbp6
+GABA: Vip 	GABAergic	CGE	NA	Vip Igfbp6
+GABA: Vip 	GABAergic	CGE	NA	Vip Igfbp6
+GABA: Vip 	GABAergic	CGE	NA	Vip Igfbp6
+GABA: Vip 	GABAergic	CGE	NA	Vip Igfbp6
+GABA: Vip 	GABAergic	CGE	NA	Vip Igfbp6
+GABA: Sst Chodl	GABAergic	MGE	NA	Sst Chodl
+GABA: Sst Chodl	GABAergic	MGE	NA	Sst Chodl
+GABA: Sst Chodl	GABAergic	MGE	NA	Sst Chodl
+GABA: Sst 	GABAergic	MGE	NA	Sst Syndig1l
+GABA: Sst 	GABAergic	MGE	NA	Sst Syndig1l
+GABA: Sst 	GABAergic	MGE	NA	Sst Syndig1l
+GABA: Sst 	GABAergic	MGE	NA	Sst Syndig1l
+GABA: Sst 	GABAergic	MGE	NA	Sst Crh
+GABA: Sst 	GABAergic	MGE	NA	Sst Crh
+GABA: Sst 	GABAergic	MGE	NA	Sst Crh
+GABA: Sst 	GABAergic	MGE	NA	Sst Crh
+GABA: Sst 	GABAergic	MGE	NA	Sst Crh
+GABA: Sst 	GABAergic	MGE	NA	Sst Crh
+GABA: Sst 	GABAergic	MGE	NA	Sst Nts
+GABA: Sst Hippocampal formation	GABAergic	MGE	NA	Sst Lmo1 HPF
+GABA: Sst Hippocampal formation	GABAergic	MGE	NA	Sst Lmo1 HPF
+GABA: Sst 	GABAergic	MGE	NA	Sst Myh8
+GABA: Sst 	GABAergic	MGE	NA	Sst Myh8
+GABA: Sst 	GABAergic	MGE	NA	Sst Myh8
+GABA: Sst 	GABAergic	MGE	NA	Sst Myh8
+GABA: Sst 	GABAergic	MGE	NA	Sst Myh8
+GABA: Sst 	GABAergic	MGE	NA	Sst Myh8
+GABA: Sst 	GABAergic	MGE	NA	Sst Etv1
+GABA: Sst 	GABAergic	MGE	NA	Sst Etv1
+GABA: Sst 	GABAergic	MGE	NA	Sst Etv1
+GABA: Sst 	GABAergic	MGE	NA	Sst Nmbr
+GABA: Sst 	GABAergic	MGE	NA	Sst Nmbr
+GABA: Sst 	GABAergic	MGE	NA	Sst Nmbr
+GABA: Sst 	GABAergic	MGE	NA	Sst Nmbr
+GABA: Sst 	GABAergic	MGE	NA	Sst Nmbr
+GABA: Sst 	GABAergic	MGE	NA	Sst Nmbr
+GABA: Sst 	GABAergic	MGE	NA	Sst Nmbr
+GABA: Sst 	GABAergic	MGE	NA	Sst Nmbr
+GABA: Sst 	GABAergic	MGE	NA	Sst Hpse
+GABA: Sst 	GABAergic	MGE	NA	Sst Hpse
+GABA: Sst 	GABAergic	MGE	NA	Sst Calb2
+GABA: Sst 	GABAergic	MGE	NA	Sst Mme
+GABA: Sst 	GABAergic	MGE	NA	Sst Mme
+GABA: Sst 	GABAergic	MGE	NA	Sst Mme
+GABA: Sst Hippocampal formation	GABAergic	MGE	NA	Sst Ctsc HPF
+GABA: Sst Hippocampal formation	GABAergic	MGE	NA	Sst Ctsc HPF
+GABA: Sst Hippocampal formation	GABAergic	MGE	NA	Sst Ctsc HPF
+GABA: Sst Hippocampal formation	GABAergic	MGE	NA	Sst Ctsc HPF
+GABA: Sst Hippocampal formation	GABAergic	MGE	NA	Sst Ctsc HPF
+GABA: Sst Hippocampal formation	GABAergic	MGE	NA	Sst Ctsc HPF
+GABA: Pvalb 	GABAergic	MGE	NA	Pvalb Th
+GABA: Pvalb 	GABAergic	MGE	NA	Pvalb Th
+GABA: Pvalb 	GABAergic	MGE	NA	Pvalb Th
+GABA: Pvalb 	GABAergic	MGE	NA	Pvalb Lpl
+GABA: Pvalb 	GABAergic	MGE	NA	Pvalb Lpl
+GABA: Pvalb 	GABAergic	MGE	NA	Pvalb Lpl
+GABA: Pvalb 	GABAergic	MGE	NA	Pvalb Lpl
+GABA: Pvalb 	GABAergic	MGE	NA	Pvalb Lpl
+GABA: Pvalb 	GABAergic	MGE	NA	Pvalb Lpl
+GABA: Pvalb 	GABAergic	MGE	NA	Pvalb Lpl
+GABA: Pvalb 	GABAergic	MGE	NA	Pvalb Lpl
+GABA: Pvalb 	GABAergic	MGE	NA	Pvalb Lpl
+GABA: Pvalb 	GABAergic	MGE	NA	Pvalb Lpl
+GABA: Pvalb 	GABAergic	MGE	NA	Pvalb Lpl
+GABA: Pvalb 	GABAergic	MGE	NA	Pvalb Vipr2
+GABA: Pvalb 	GABAergic	MGE	NA	Pvalb Vipr2
+Glut: Area prostriata L2	Glutamatergic	L2/3 IT	Intratelencephalic	L2 IT APr Cdh7
+Glut: Area prostriata L2	Glutamatergic	L2/3 IT	Intratelencephalic	L2 IT APr Cdh7
+Glut: Area prostriata L2	Glutamatergic	L2/3 IT	Intratelencephalic	L2 IT APr Cdh7
+Glut: Area prostriata L2	Glutamatergic	L2/3 IT	Intratelencephalic	L2 IT APr Cdh7
+Glut: Area prostriata L2	Glutamatergic	L2/3 IT	Intratelencephalic	L2 IT APr Cdh7
+Glut: Post-pre subiculum L2/3	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT POST-PRE Kit
+Glut: Post-pre subiculum L2/3	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT POST-PRE Kit
+Glut: Post-pre subiculum L2/3	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT POST-PRE Kit
+Glut: Retrosplenial ventral/post-pre subiculumCortex L2	Glutamatergic	L2/3 IT	Intratelencephalic	L2 IT RSPv-POST-PRE Pdlim1
+Glut: Retrosplenial ventral/post-pre subiculumCortex L2	Glutamatergic	L2/3 IT	Intratelencephalic	L2 IT RSPv-POST-PRE Pdlim1
+Glut: Retrosplenial-anterior cingulate L2	Glutamatergic	L2/3 IT	Intratelencephalic	L2 IT RSP-ACA Npnt
+Glut: Medial entorhinal area  L3	Glutamatergic	L2/3 IT	Intratelencephalic	L3 IT ENTm Plch1
+Glut: Medial entorhinal area  L3	Glutamatergic	L2/3 IT	Intratelencephalic	L3 IT ENTm Plch1
+Glut: Medial entorhinal area  L3	Glutamatergic	L2/3 IT	Intratelencephalic	L3 IT ENTm Plch1
+Glut: Medial entorhinal area  L3	Glutamatergic	L2/3 IT	Intratelencephalic	L3 IT ENTm Plch1
+Glut: Lateral entorhinal area  L3	Glutamatergic	L2/3 IT	Intratelencephalic	L3 IT ENTl Fign
+Glut: Lateral entorhinal area  L3	Glutamatergic	L2/3 IT	Intratelencephalic	L3 IT ENTl Fign
+Glut: Parasubiculum  L2/3	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT PAR Wfs1 Prlr
+Glut: Parasubiculum  L2/3	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT PAR Wfs1 Prlr
+Glut: Parasubiculum  L2/3	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT PAR Wfs1 Prlr
+Glut: Parasubiculum  L2/3	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT PAR Wfs1 Prlr
+Glut: Parasubiculum  L2/3	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT PAR Cfap58
+Glut: Medial entorhinal area  L2	Glutamatergic	L2/3 IT	Intratelencephalic	L2 IT ENTm Lef1
+Glut: Medial entorhinal area  L2	Glutamatergic	L2/3 IT	Intratelencephalic	L2 IT ENTm Lef1
+Glut: Medial entorhinal area  L2	Glutamatergic	L2/3 IT	Intratelencephalic	L2 IT ENTm Lef1
+Glut: Medial entorhinal area  L2 	Glutamatergic	L2/3 IT	Intratelencephalic	L2 IT ENTm Lef1
+Glut: Medial entorhinal area  L2 	Glutamatergic	L2/3 IT	Intratelencephalic	L2 IT ENTm Lef1
+Glut: Lateral entorhinal area  L2	Glutamatergic	L2/3 IT	Intratelencephalic	L2 IT ENTl Chn2
+Glut: Lateral entorhinal area  L2/3	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT ENTl Fign
+Glut: Lateral entorhinal area  L2/3	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT ENTl Fign
+Glut: Lateral entorhinal area  L2/3	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT ENTl Fign
+Glut: Lateral entorhinal area  L2/3	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT ENTl Ndst4
+Glut: Lateral entorhinal area  L2/3	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT ENTl Ndst4
+Glut: Lateral entorhinal area  L2/3	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT ENTl Ndst4
+Glut: Agranular insular L2/3 	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT AI Ndst4
+Glut: Agranular insular L2/3 	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT AI Ndst4
+Glut: Lateral entorhinal area  L2/3	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT ENTl Ndst4
+Glut: Lateral entorhinal area  L2/3	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT ENTl Ndst4
+Glut: Cortex  L2/3 	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT CTX Trhr
+Glut: Cortex  L2/3	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT CTX Trhr
+Glut: Cortex  L2/3 	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT CTX Trhr
+Glut: Cortex  L2/3 	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT CTX Trhr
+Glut: Cortex  L2/3 	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT CTX Stard8
+Glut: Cortex  L2/3 	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT CTX Stard8
+Glut: Cortex  L2/3 	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT CTX Stard8
+Glut: Cortex  L2/3 	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT CTX Stard8
+Glut: Cortex  L2/3 	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT CTX Stard8
+Glut: Cortex  L2/3 	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT CTX Baz1a
+Glut: Prosubiculum  L2/3 	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT ProS Dcn Cbln4
+Glut: Prosubiculum  L2/3 	Glutamatergic	L2/3 IT	Intratelencephalic	L2/3 IT ProS Dcn Cbln4
+Glut: Hippocampo-amygdalar transition area	Glutamatergic	L2/3 IT	Intratelencephalic	IT HATA Id4
+Glut: Hippocampo-amygdalar transition area	Glutamatergic	L2/3 IT	Intratelencephalic	IT HATA Id4
+Glut: Hippocampo-amygdalar transition area	Glutamatergic	L2/3 IT	Intratelencephalic	IT HATA Id4
+Glut: Hippocampo-amygdalar transition area	Glutamatergic	L2/3 IT	Intratelencephalic	IT HATA Id4
+Glut: Cortex  L4	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L4 IT CTX Rspo1
+Glut: Cortex  L4	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L4 IT CTX Rspo1
+Glut: Cortex  L4	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L4 IT CTX Rspo1
+Glut: Cortex  L4	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L4 IT CTX Rspo1
+Glut: Cortex  L4/5	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L4/5 IT CTX Cux2 Etv1
+Glut: Cortex  L4/5	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L4/5 IT CTX Cux2 Etv1
+Glut: Cortex  L4/5	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L4/5 IT CTX Cux2 Etv1
+Glut: Cortex  L4/5	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L4/5 IT CTX Cux2 Etv1
+Glut: Cortex  L4/5	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L4/5 IT CTX Cux2 Etv1
+Glut: Cortex  L4/5	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L4/5 IT CTX Cux2 Etv1
+Glut: Cortex  L4/5	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L4/5 IT CTX Cux2 Etv1
+Glut: Cortex  L4/5	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L4/5 IT CTX Cux2 Etv1
+Glut: Cortex  L4/5	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L4/5 IT CTX Cux2 Etv1
+Glut: Cortex  L4/5	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L4/5 IT CTX Cux2 Etv1
+Glut: Cortex  L4/5	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L4/5 IT CTX Cux2 Etv1
+Glut: Cortex  L4/5	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L4/5 IT CTX Cux2 Etv1
+Glut: Retrosplenial/Anterior cingulate L5	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L5 IT RSP-ACA Tshz2
+Glut: Retrosplenial/Anterior cingulate L5	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L5 IT RSP-ACA Tshz2
+Glut: Cortex  L5	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L5 IT CTX Foxo1
+Glut: Cortex  L5	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L5 IT CTX Foxo1
+Glut: Cortex  L5	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L5 IT CTX Foxo1
+Glut: Cortex  L5	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L5 IT CTX Foxo1
+Glut: Cortex  L5	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L5 IT CTX Foxo1
+Glut: Cortex  L5	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L5 IT CTX Foxo1
+Glut: Cortex  L5	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L5 IT CTX Foxo1
+Glut: Cortex  L5/6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L5/6 IT CTX Cdh9
+Glut: Cortex  L5/6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L5/6 IT CTX Cdh9
+Glut: Cortex  L5/6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L5/6 IT CTX Cdh9
+Glut: Cortex  L5/6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L5/6 IT CTX Cdh9
+Glut: Cortex  L5/6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L5/6 IT CTX Cdh9
+Glut: Cortex  L5/6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L5/6 IT CTX Cdh9
+Glut: Cortex  L5/6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L5/6 IT CTX Cdh9
+Glut: Temporal association/perirhinal/ectorhinal L5/6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L5/6 IT TPE-ENT Dcn
+Glut: Temporal association/perirhinal/ectorhinal L5/6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L5/6 IT TPE-ENT Dcn
+Glut: Temporal association/perirhinal/ectorhinal L5/6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L5/6 IT TPE-ENT Dcn
+Glut: Temporal association/perirhinal/ectorhinal L5/6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L5/6 IT TPE-ENT Dcn
+Glut: PFC L5/6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L5/6 IT PFC Chn2
+Glut: Temporal association/perirhinal/ectorhinal L5/6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L5/6 IT TPE-ENT Chn2
+Glut: Temporal association/perirhinal/ectorhinal L5/6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L5/6 IT TPE-ENT Dcn
+Glut: Cortex  L6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L6 IT CTX Fst
+Glut: Cortex  L6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L6 IT CTX Fst
+Glut: Cortex  L6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L6 IT CTX Fst
+Glut: Cortex  L6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L6 IT CTX Fst
+Glut: Cortex  L6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L6 IT CTX Osr1
+Glut: Cortex  L6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L6 IT CTX Osr1
+Glut: Cortex  L6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L6 IT CTX Osr1
+Glut: Cortex  L6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L6 IT CTX Osr1
+Glut: Cortex  L6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L6 IT CTX Osr1
+Glut: Cortex  L6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L6 IT CTX Osr1
+Glut: Cortex  L6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L6 IT CTX Osr1
+Glut: Cortex  L6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L6 IT CTX Osr1
+Glut: Cortex  L6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L6 IT CTX Osr1
+Glut: Cortex  L6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L6 IT CTX Osr1
+Glut: Cortex  L6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L6 IT CTX Osr1
+Glut: Cortex  L6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L6 IT CTX Osr1
+Glut: Lateral entorhinal area  L6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L6 IT ENTl Dlk1
+Glut: Lateral entorhinal area  L6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L6 IT ENTl Dlk1
+Glut: Lateral entorhinal area  L6	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	L6 IT ENTl Dlk1
+Glut: Car3	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	Car3
+Glut: Car3	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	Car3
+Glut: Car3	Glutamatergic	L4/5/6 IT Car3	Intratelencephalic	Car3
+Glut: Cortex  L5	Glutamatergic	PT	Pyramidal tract	L5 PT CTX Chrna6
+Glut: Cortex  L5	Glutamatergic	PT	Pyramidal tract	L5 PT CTX Chrna6
+Glut: Cortex  L5	Glutamatergic	PT	Pyramidal tract	L5 PT CTX Chrna6
+Glut: Cortex  L5	Glutamatergic	PT	Pyramidal tract	L5 PT CTX Chrna6
+Glut: Cortex  L5	Glutamatergic	PT	Pyramidal tract	L5 PT CTX Npnt
+Glut: Cortex  L5	Glutamatergic	PT	Pyramidal tract	L5 PT CTX Npnt
+Glut: Cortex  L5	Glutamatergic	PT	Pyramidal tract	L5 PT CTX Npnt
+Glut: Cortex  L5	Glutamatergic	PT	Pyramidal tract	L5 PT CTX Npnt
+Glut: Cortex  L5	Glutamatergic	PT	Pyramidal tract	L5 PT CTX Npnt
+Glut: Cortex  L5	Glutamatergic	PT	Pyramidal tract	L5 PT CTX Npnt
+Glut: Cortex  L5	Glutamatergic	PT	Pyramidal tract	L5 PT CTX Cdh13
+Glut: Cortex  L5	Glutamatergic	PT	Pyramidal tract	L5 PT CTX Cdh13
+Glut: Cortex  L5	Glutamatergic	PT	Pyramidal tract	L5 PT CTX Cdh13
+Glut: Cortex  L5	Glutamatergic	PT	Pyramidal tract	L5 PT CTX Cdh13
+Glut: Cortex  L5	Glutamatergic	PT	Pyramidal tract	L5 PT CTX Cdh13
+Glut: Cortex  L5	Glutamatergic	PT	Pyramidal tract	L5 PT CTX Cdh13
+Glut: Cortex  L5	Glutamatergic	PT	Pyramidal tract	L5 PT CTX Cdh13
+Glut: Cortex  L5	Glutamatergic	PT	Pyramidal tract	L5 PT CTX C1ql2
+Glut: Cortex  L5	Glutamatergic	PT	Pyramidal tract	L5 PT CTX Cdh13
+Glut: Cortex  L5	Glutamatergic	PT	Pyramidal tract	L5 PT CTX Cdh13
+Glut: Cortex  L5	Glutamatergic	PT	Pyramidal tract	L5 PT CTX Cdh13
+Glut: Cortex  L5	Glutamatergic	PT	Pyramidal tract	L5 PT CTX C1ql2
+Glut: Retrosplenial/Anterior cingulate L4	Glutamatergic	PT	Pyramidal tract	L4 RSP-ACA Scnn1a
+Glut: Retrosplenial/Anterior cingulate L4	Glutamatergic	PT	Pyramidal tract	L4 RSP-ACA Scnn1a
+Glut: Post-Pre-Par L5	Glutamatergic	PT	Pyramidal tract	L5 PPP Ptgfr
+Glut: Cortex L5/6	Glutamatergic	NP/CT/L6b	Near projecting	L5/6 NP CTX Sla2
+Glut: Cortex L5/6	Glutamatergic	NP/CT/L6b	Near projecting	L5/6 NP CTX Sla2
+Glut: Cortex L5/6	Glutamatergic	NP/CT/L6b	Near projecting	L5/6 NP CTX Sla2
+Glut: Cortex L5/6	Glutamatergic	NP/CT/L6b	Near projecting	L5/6 NP CTX Sla2
+Glut: Cortex L5/6	Glutamatergic	NP/CT/L6b	Near projecting	L5/6 NP CTX Sla2
+Glut: Cortex L5/6	Glutamatergic	NP/CT/L6b	Near projecting	L5/6 NP CTX Sla2
+Glut: Cortex L5/6	Glutamatergic	NP/CT/L6b	Near projecting/Corticothalamic/L6b	L5/6 NP CT CTX Sla2 Col12a1
+Glut: Subiculum	Glutamatergic	NP/CT/L6b	Near projecting	NP SUB Ly6g6e
+Glut: Subiculum	Glutamatergic	NP/CT/L6b	Near projecting	NP SUB Ly6g6e
+Glut: Subiculum	Glutamatergic	NP/CT/L6b	Near projecting	NP SUB Ly6g6e
+Glut: Subiculum	Glutamatergic	NP/CT/L6b	Near projecting	NP SUB Ly6g6e
+Glut: Post-Pre-Par	Glutamatergic	NP/CT/L6b	Near projecting	NP PPP Tmem255b
+Glut: Post-Pre-Par	Glutamatergic	NP/CT/L6b	Near projecting	NP PPP Tmem255b
+Glut: Post-Pre-Par	Glutamatergic	NP/CT/L6b	Near projecting	NP PPP Tmem255b
+Glut: Cortex L6	Glutamatergic	NP/CT/L6b	Corticothalamic	L6 CT CTX Syt6
+Glut: Cortex L6	Glutamatergic	NP/CT/L6b	Corticothalamic	L6 CT CTX Syt6
+Glut: Cortex L6	Glutamatergic	NP/CT/L6b	Corticothalamic	L6 CT CTX Syt6
+Glut: Cortex L6	Glutamatergic	NP/CT/L6b	Corticothalamic	L6 CT CTX Syt6
+Glut: Cortex L6	Glutamatergic	NP/CT/L6b	Corticothalamic	L6 CT CTX Syt6
+Glut: Cortex L6	Glutamatergic	NP/CT/L6b	Corticothalamic	L6 CT CTX Syt6
+Glut: Cortex L6	Glutamatergic	NP/CT/L6b	Corticothalamic	L6 CT CTX Syt6
+Glut: Cortex L6	Glutamatergic	NP/CT/L6b	Corticothalamic	L6 CT CTX Syt6
+Glut: Cortex L6	Glutamatergic	NP/CT/L6b	Corticothalamic	L6 CT CTX Syt6
+Glut: Cortex L6	Glutamatergic	NP/CT/L6b	Corticothalamic	L6 CT CTX Syt6
+Glut: Cortex L6	Glutamatergic	NP/CT/L6b	Corticothalamic	L6 CT CTX Syt6
+Glut: Cortex L6	Glutamatergic	NP/CT/L6b	Corticothalamic	L6 CT CTX Syt6
+Glut: Cortex L6	Glutamatergic	NP/CT/L6b	Corticothalamic	L6 CT CTX Syt6
+Glut: Cortex L6	Glutamatergic	NP/CT/L6b	Corticothalamic	L6 CT CTX Syt6
+Glut: Cortex L6	Glutamatergic	NP/CT/L6b	Corticothalamic	L6 CT CTX Syt6
+Glut: Cortex L6	Glutamatergic	NP/CT/L6b	Corticothalamic	L6 CT CTX Syt6
+Glut: Subiculum	Glutamatergic	NP/CT/L6b	Corticothalamic	CT SUB Rorb
+Glut: Subiculum	Glutamatergic	NP/CT/L6b	Corticothalamic	CT SUB Rorb
+Glut: Subiculum	Glutamatergic	NP/CT/L6b	Corticothalamic	CT SUB Rorb
+Glut: Subiculum	Glutamatergic	NP/CT/L6b	Corticothalamic	CT SUB Rorb
+Glut: Entorhinal cortex L6	Glutamatergic	NP/CT/L6b	Corticothalamic	L6 CT ENT Rasgrf2 Rmst
+Glut: Entorhinal cortex L6	Glutamatergic	NP/CT/L6b	Corticothalamic	L6 CT ENT Rasgrf2 Rmst
+Glut: Entorhinal cortex L6b	Glutamatergic	NP/CT/L6b	NA	L6b ENT Cplx3 Cobll1
+Glut: Entorhinal cortex L6b	Glutamatergic	NP/CT/L6b	NA	L6b ENT Cplx3 Cobll1
+Glut: Entorhinal cortex L6b	Glutamatergic	NP/CT/L6b	NA	L6b ENT Cplx3 Cobll1
+Glut: Cortex L6b	Glutamatergic	NP/CT/L6b	NA	L6b CTX Nxph4
+Glut: Cortex L6b	Glutamatergic	NP/CT/L6b	NA	L6b CTX Clic5
+Glut: Cortex L6b	Glutamatergic	NP/CT/L6b	NA	L6b CTX Clic5
+Glut: Cortex L6b	Glutamatergic	NP/CT/L6b	NA	L6b CTX Clic5
+Glut: Cortex L6b	Glutamatergic	NP/CT/L6b	NA	L6b CTX Clic5
+Glut: Retrohippocampal region L6b	Glutamatergic	NP/CT/L6b	NA	L6b RHP Nxph4 Cobll1
+Glut: Retrohippocampal region L6b	Glutamatergic	NP/CT/L6b	NA	L6b RHP Nxph4 Cobll1
+Glut: Retrohippocampal region L6b	Glutamatergic	NP/CT/L6b	NA	L6b RHP Nxph4 Cobll1
+Glut: Cortex L6b	Glutamatergic	NP/CT/L6b	NA	L6b CTX Clic5
+Glut: Cortex L6b	Glutamatergic	NP/CT/L6b	NA	L6b CTX Clic5
+Glut: Cortex L6b	Glutamatergic	NP/CT/L6b	NA	L6b CTX Clic5
+Glut: Cortex L6b	Glutamatergic	NP/CT/L6b	NA	L6b CTX Clic5
+Glut: Cortex L6b	Glutamatergic	NP/CT/L6b	NA	L6b CTX Clic5
+Glut: Cortex L6b	Glutamatergic	NP/CT/L6b	NA	L6b CTX Clic5
+Glut: Cortex L6b	Glutamatergic	NP/CT/L6b	NA	L6b CTX Slc17a8
+Glut: Subiculum	Glutamatergic	DG/SUB/CA	NA	SUB Fn1
+Glut: Subiculum	Glutamatergic	DG/SUB/CA	NA	SUB Fn1
+Glut: Subiculum	Glutamatergic	DG/SUB/CA	NA	SUB Fn1
+Glut: Subiculum	Glutamatergic	DG/SUB/CA	NA	SUB Fn1
+Glut: Prosubiculum	Glutamatergic	DG/SUB/CA	NA	ProS Arhgap6
+Glut: Prosubiculum	Glutamatergic	DG/SUB/CA	NA	ProS Arhgap6
+Glut: Prosubiculum	Glutamatergic	DG/SUB/CA	NA	ProS Arhgap6
+Glut: Prosubiculum	Glutamatergic	DG/SUB/CA	NA	ProS Arhgap6
+Glut: Prosubiculum	Glutamatergic	DG/SUB/CA	NA	ProS Arhgap6
+Glut: Prosubiculum	Glutamatergic	DG/SUB/CA	NA	ProS Arhgap6
+Glut: Prosubiculum	Glutamatergic	DG/SUB/CA	NA	ProS Arhgap6
+Glut: CA1-Prosubiculum	Glutamatergic	DG/SUB/CA	NA	CA1-ProS Dlk1
+Glut: CA1-Prosubiculum	Glutamatergic	DG/SUB/CA	NA	CA1-ProS Dlk1
+Glut: CA1-Prosubiculum	Glutamatergic	DG/SUB/CA	NA	CA1-ProS Dlk1
+Glut: CA1-Prosubiculum	Glutamatergic	DG/SUB/CA	NA	CA1-ProS Dlk1
+Glut: CA1-Prosubiculum	Glutamatergic	DG/SUB/CA	NA	CA1-ProS Dlk1
+Glut: CA1-ventral	Glutamatergic	DG/SUB/CA	NA	CA1-ve Gpc3
+Glut: CA1-ventral	Glutamatergic	DG/SUB/CA	NA	CA1-ve Gpc3
+Glut: CA1-ventral	Glutamatergic	DG/SUB/CA	NA	CA1-ve Gpc3
+Glut: CA1	Glutamatergic	DG/SUB/CA	NA	CA1 Lefty1
+Glut: CA1	Glutamatergic	DG/SUB/CA	NA	CA1 Lefty1
+Glut: CA1	Glutamatergic	DG/SUB/CA	NA	CA1 Lefty1
+Glut: CA1	Glutamatergic	DG/SUB/CA	NA	CA1 Lefty1
+Glut: CA1	Glutamatergic	DG/SUB/CA	NA	CA1 Lefty1
+Glut: CA1	Glutamatergic	DG/SUB/CA	NA	CA1 Lefty1
+Glut: CA1	Glutamatergic	DG/SUB/CA	NA	CA1 Lefty1
+Glut: CA1	Glutamatergic	DG/SUB/CA	NA	CA1 Lefty1
+Glut: CA1	Glutamatergic	DG/SUB/CA	NA	CA1 Lefty1
+Glut: CA1-dorsal	Glutamatergic	DG/SUB/CA	NA	CA1-do Plekhg1
+Glut: CA1-dorsal	Glutamatergic	DG/SUB/CA	NA	CA1-do Plekhg1
+Glut: CA1-dorsal	Glutamatergic	DG/SUB/CA	NA	CA1-do Plekhg1
+Glut: Dentate Gyrus mossy cells 	Glutamatergic	DG/SUB/CA	NA	Mossy Rgs12
+Glut: Dentate Gyrus mossy cells 	Glutamatergic	DG/SUB/CA	NA	Mossy Rgs12
+Glut: CA3-ventral	Glutamatergic	DG/SUB/CA	NA	CA3-ve Fam107a
+Glut: CA3-ventral	Glutamatergic	DG/SUB/CA	NA	CA3-ve Fam107a
+Glut: CA3-ventral	Glutamatergic	DG/SUB/CA	NA	CA3-ve Fam107a
+Glut: CA3-ventral	Glutamatergic	DG/SUB/CA	NA	CA3-ve Fam107a
+Glut: CA3-ventral	Glutamatergic	DG/SUB/CA	NA	CA3-ve Fam107a
+Glut: CA3-dorsal	Glutamatergic	DG/SUB/CA	NA	CA3-do Iyd
+Glut: CA3-dorsal	Glutamatergic	DG/SUB/CA	NA	CA3-do Iyd
+Glut: CA3-dorsal	Glutamatergic	DG/SUB/CA	NA	CA3-do Iyd
+Glut: CA2-IG-FC	Glutamatergic	DG/SUB/CA	NA	CA2-IG-FC Ramp3
+Glut: CA2-IG-FC	Glutamatergic	DG/SUB/CA	NA	CA2-IG-FC Ramp3
+Glut: Dentate Gyrus granule cells 	Glutamatergic	DG/SUB/CA	NA	DG Prox1 
+Glut: Dentate Gyrus granule cells 	Glutamatergic	DG/SUB/CA	NA	DG Prox1 
+Glut: Dentate Gyrus granule cells 	Glutamatergic	DG/SUB/CA	NA	DG Prox1 
+Glut: Dentate Gyrus granule cells 	Glutamatergic	DG/SUB/CA	NA	DG Prox1 
+Other: Oligodendrocyte precursor cell	Non-Neuronal	Other	NA	Oligo Pdgfra
+Other: Oligodendrocyte precursor cell	Non-Neuronal	Other	NA	Oligo Pdgfra
+Other: Oligodendrocyte	Non-Neuronal	Other	NA	Oligo Neu4
+Other: Oligodendrocyte	Non-Neuronal	Other	NA	Oligo Neu4
+Other: Oligodendrocyte	Non-Neuronal	Other	NA	Oligo Enpp6
+Other: Oligodendrocyte	Non-Neuronal	Other	NA	Oligo Enpp6
+Other: Oligodendrocyte	Non-Neuronal	Other	NA	Oligo Enpp6
+Other: Oligodendrocyte	Non-Neuronal	Other	NA	Oligo Opalin
+Other: Oligodendrocyte	Non-Neuronal	Other	NA	Oligo Opalin
+Other: Oligodendrocyte	Non-Neuronal	Other	NA	Oligo Opalin
+Other: Oligodendrocyte	Non-Neuronal	Other	NA	Oligo Opalin
+Other: Astrocyte	Non-Neuronal	Other	NA	Astro Slc7a10
+Other: Astrocyte	Non-Neuronal	Other	NA	Astro Gfap Apoe
+Other: Astrocyte	Non-Neuronal	Other	NA	Astro Gfap Apoe
+Other: Endothelial	Non-Neuronal	Other	NA	Endo Tek
+Other: Smooth muscle cell	Non-Neuronal	Other	NA	SMC Acta2
+Other: Smooth muscle cell	Non-Neuronal	Other	NA	Peri Atp13a5
+Other: Vascular and leptomeningeal cells	Non-Neuronal	Other	NA	VLMC Dcn
+Other: Vascular and leptomeningeal cells	Non-Neuronal	Other	NA	VLMC Dcn
+Other: Vascular and leptomeningeal cells	Non-Neuronal	Other	NA	VLMC Dcn
+Other: Microglia-Perivascular macrophage	Non-Neuronal	Other	NA	MIcro Siglech
+Other: Microglia-Perivascular macrophage	Non-Neuronal	Other	NA	PVM Mrc1
+Other: Microglia-Perivascular macrophage	Non-Neuronal	Other	NA	PVM Mrc1

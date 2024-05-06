@@ -36,5 +36,11 @@ sort-bed - | bedops -n 1 - ../../data/mm10/mm10.blacklist.bed \
 >../../data/mm10/gencode.vM10.annotation_proteinCoding_gene_greater_than_4.5kb.bed
 
 
+#conda create deeptools3.1.2 
+#conda activate deeptools3.1.2
+#conda install deeptools==3.1.2
+
+
+
 
 
