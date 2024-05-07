@@ -21,7 +21,7 @@ srun --partition=super --nodes=8 --pty --time=5:00:00 /bin/bash
 
 **Step1 :** 
 ```
-$ git clone https://github.com/gyanmishra/MECP2_project.git
+$ git clone https://github.com/gyanmishra/MECP2_Project_Lab.git
 $ cd MECP2_Project_Lab/scripts/shell_scripts/
 ```
 
