@@ -29,7 +29,7 @@ knitr:
 This document encapsulates the R code employed for the comprehensive quantitative, integrative, and statistical analysis of the datasets outlined in the study.
 
 |            |                                                                      |                                                                                                           |
-|--------------|----------------------|------------------------------------|
+|------------------|---------------------|---------------------------------|
 | **SI. No** | **Sequencing data type**                                             | **Source**                                                                                                |
 | 1\.        | MECP2 CUT&RUN (Adult Brain Cortex of *Mecp2* WT and KO mice)         | [GSE150538](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE150538)                                 |
 | 2\.        | MECP2 CUT&RUN (Adult hippocampus of *MECP2*-TG1, *Mecp2* KO, and WT) | [GSE213752](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE213752)                                 |
@@ -86,6 +86,10 @@ library(GeneOverlap)
 library(ggvenn)
 txdb = TxDb.Mmusculus.UCSC.mm10.knownGene
 })
+```
+
+```{r}
+getwd()
 ```
 
 ```{r,evl=FALSE, echo=TRUE,include=TRUE}
@@ -152,7 +156,7 @@ dir.create("../..//Figures", showWarnings = FALSE)
 
     ```{r,echo=TRUE,eval=FALSE}
 
-    load('results/RData/Boxer_RNAseq_data.RData',verbose = TRUE)
+    load('../../results/RData/Boxer_RNAseq_data.RData',verbose = TRUE)
 
     RNAseq_Mecp2KO = RNAseq.list[c(1,2,3)]
     geneSet1 = lapply(RNAseq_Mecp2KO, 
@@ -313,6 +317,14 @@ dir.create("../..//Figures", showWarnings = FALSE)
          file = '../../results/RData/MECP2_regulatedGenes.RData')
     ```
 
+Load following RData object
+
+```{r,eval=FALSE,echo=TRUE}
+load(file = "/archive/OBI/Neuroinformatics_Core/Stroud_lab/shared/MECP2_project_Gyan/8wk_CTX_Stroud2017_mm10_BSmap_CA.RData",verbose = T)
+load("../../results/RData/MECP2_regulatedGenes.RData")
+load(file = "/archive/OBI/Neuroinformatics_Core/Stroud_lab/shared/MECP2_project_Gyan/8wk_CTX_Stroud2017_mm10_BSmap_CG.RData",verbose=TRUE)
+```
+
 ### **Figure 1: CUT&RUN uncovers MECP2 Binding Hotspots (MBHs) across the neural genome.**
 
 1.  Figure 1A.
@@ -337,27 +349,27 @@ dir.create("../..//Figures", showWarnings = FALSE)
     }
 
     # Load genome wide CA methylation BSMap data
-    load('/archive/OBI/Neuroinformatics_Core/Stroud_lab/shared//8wk_CTX_Stroud2017_mm10_BSmap_CA.RData',verbose = TRUE)
+    #load('/archive/OBI/Neuroinformatics_Core/Stroud_lab/shared/MECP2_project_Gyan/8wk_CTX_Stroud2017_mm10_BSmap_CA.RData',verbose = TRUE)
 
     # Read mean coverage of MECP2 7wk_MECP2 sample
-    MECP2_7wk_cov = read.csv("/archive/OBI/Neuroinformatics_Core/Stroud_lab/shared//7wk_CTX_MECP2_gene_Cov.bed",sep = "\t",header = F)
+    MECP2_7wk_cov = read.csv("/archive/OBI/Neuroinformatics_Core/Stroud_lab/shared/MECP2_project_Gyan/7wk_CTX_MECP2_gene_Cov.bed",sep = "\t",header = F)
     colnames(MECP2_7wk_cov) = c('chr','start','end','7wk_MECP2')
     MECP2_7wk_cov$`7wk_MECP2` = ifelse(MECP2_7wk_cov$`7wk_MECP2` == '.', 0, MECP2_7wk_cov$`7wk_MECP2`)
     dim(MECP2_7wk_cov)
     MECP2_7wk_cov = MECP2_7wk_cov %>% mutate(`7wk_MECP2` = as.numeric(`7wk_MECP2`), 
                                              geneLength = (end-start)/1000,
                                              norm_7wk_MECP2 = `7wk_MECP2`/geneLength) #%>% 
-      filter(norm_7wk_MECP2 != max(norm_7wk_MECP2))
+    #  filter(norm_7wk_MECP2 != max(norm_7wk_MECP2))
 
     # Read mean coverage of IgG 7wk_IgG sample
-    IgG_7wk_cov = read.csv("/archive/OBI/Neuroinformatics_Core/Stroud_lab/shared//7wk_CTX_IgG_gene_Cov.bed",sep = "\t",header = F)
+    IgG_7wk_cov = read.csv("/archive/OBI/Neuroinformatics_Core/Stroud_lab/shared/MECP2_project_Gyan/7wk_CTX_IgG_gene_Cov.bed",sep = "\t",header = F)
     colnames(IgG_7wk_cov) = c('chr','start','end','7wk_IgG')
     IgG_7wk_cov$`7wk_IgG` = ifelse(IgG_7wk_cov$`7wk_IgG` == '.', 0, IgG_7wk_cov$`7wk_IgG`)
     head(IgG_7wk_cov)
     IgG_7wk_cov = IgG_7wk_cov %>% mutate(`7wk_IgG` = as.numeric(`7wk_IgG`), 
                                          geneLength = (end-start)/1000,
                                          norm_IgG_7wk_cov = `7wk_IgG`/geneLength) #%>% 
-      filter(norm_IgG_7wk_cov != max(norm_IgG_7wk_cov))
+    #  filter(norm_IgG_7wk_cov != max(norm_IgG_7wk_cov))
 
 
     # combine all the above data frame
@@ -404,6 +416,7 @@ dir.create("../..//Figures", showWarnings = FALSE)
     colnames(tmp2)[1] = 'MECP2'
     MECP2_peak_cov_meth.merged.avg = tmp2[,c(2,3,4,1)]
 
+    library(broom)
     # calculate pearson correlation between mCA and MECP2 on geneBody
     mCA_MECP2.corr.df = rbindlist(lapply(
       lapply(MECP2_peak_cov_meth.merged.list, function(x) cor.test(x[,1],x[,2])), tidy),
@@ -423,7 +436,7 @@ dir.create("../..//Figures", showWarnings = FALSE)
       theme_test(20)+
       xlab('mCA/CA')+
       ylab('Gene Body MECP2 coverage')
-    cor.plot
+    #cor.plot
     cor.plot+annotate(geom="text", x=0.015, y=65, 
                       label=paste0('R = ',round(mCA_MECP2.corr.df$estimate[1],2),
                                    ifelse(mCA_MECP2.corr.df$p.value[1] == 0,
@@ -434,7 +447,7 @@ dir.create("../..//Figures", showWarnings = FALSE)
                                    ifelse(mCA_MECP2.corr.df$p.value[2] == 0,
                                     ', p < 2.2e-16',paste0(', p = ',round(mCA_MECP2.corr.df$p.value[2],2)))),
                color="black")
-    ggsave(file='Figures/MECP2_mCA_corr_geneBody.pdf',height = 12,width = 16,units = 'cm')
+    ggsave(file='../../Figures/MECP2_mCA_corr_geneBody.pdf',height = 12,width = 16,units = 'cm')
 
     ```
 
@@ -443,25 +456,25 @@ dir.create("../..//Figures", showWarnings = FALSE)
     ```{r,eval=FALSE,echo=TRUE}
     # compare MECP2 CUT&RUN in MBHs, high mCA aand H3K9me3.
 
-    load(file = "/archive/OBI/Neuroinformatics_Core/Stroud_lab/shared/MECP2_project_Gyan/8wk_CTX_Stroud2017_mm10_BSmap_CA.RData",verbose = T)
-    tiles = tileGenome(seqinfo(BSgenome.Mmusculus.UCSC.mm10), tilewidth=5000,
-                        cut.last.tile.in.chrom=TRUE)
-    CTX_CA_meth_tiles =regionCounts(CTX_CA,tiles)
-    CTX_CA_meth_tiles.df = getData(CTX_CA_meth_tiles)
-    CTX_CA_meth_tiles.df$meth = CTX_CA_meth_tiles.df$numCs/CTX_CA_meth_tiles.df$coverage
+    #load(file = "/archive/OBI/Neuroinformatics_Core/Stroud_lab/shared/MECP2_project_Gyan#/8wk_CTX_Stroud2017_mm10_BSmap_CA.RData",verbose = T)
+    #tiles = tileGenome(seqinfo(BSgenome.Mmusculus.UCSC.mm10), tilewidth=5000,
+    #                    cut.last.tile.in.chrom=TRUE)
+    #CTX_CA_meth_tiles =regionCounts(CTX_CA,tiles)
+    #CTX_CA_meth_tiles.df = getData(CTX_CA_meth_tiles)
+    #CTX_CA_meth_tiles.df$meth = CTX_CA_meth_tiles.df$numCs/CTX_CA_meth_tiles.df$coverage
+    #
+    #CTX_CA_meth_tiles.df %>% filter(coverage > 100) %>% 
+    #  arrange(desc(meth)) %>% 
+    #  top_n(1000) %>% 
+    #  select(1,2,3) %>% 
+    #  write.table("/archive/OBI/Neuroinformatics_Core/Stroud_lab/shared/MECP2_project_Gyan#//8wk_CTX_Stroud2017_mm10_BSmap_top1000_CA_5kbbin.bed",sep = "\t",
+    #              col.names = F,row.names = F,quote = FALSE)
 
-    CTX_CA_meth_tiles.df %>% filter(coverage > 100) %>% 
-      arrange(desc(meth)) %>% 
-      top_n(1000) %>% 
-      select(1,2,3) %>% 
-      write.table("/archive/OBI/Neuroinformatics_Core/Stroud_lab/shared/MECP2_project_Gyan//8wk_CTX_Stroud2017_mm10_BSmap_top1000_CA_5kbbin.bed",sep = "\t",
-                  col.names = F,row.names = F,quote = FALSE)
-
-    mecp2_cov = c(list.files("../../results/MECP2",pattern = ".*_MECP2WT.*_top1000_CA.bed",
+    mecp2_cov = c(list.files("/archive/OBI/Neuroinformatics_Core/Stroud_lab/shared/MECP2_project_Gyan/",pattern = ".*_MECP2WT.*_top1000_CA.bed",
                             full.names = TRUE),
-                 list.files("../../results/MECP2",pattern = ".*_MECP2WT.*_H3K9me3_noBlacklist.bed",
+                 list.files("/archive/OBI/Neuroinformatics_Core/Stroud_lab/shared/MECP2_project_Gyan/",pattern = ".*_MECP2WT.*_H3K9me3_noBlacklist.bed",
                             full.names = TRUE),
-                 list.files("../../results/MECP2",pattern = ".*_MECP2WT.*peak_Coverage.bed",
+                 list.files("/archive/OBI/Neuroinformatics_Core/Stroud_lab/shared/MECP2_project_Gyan/",pattern = ".*_MECP2WT.*peak_Coverage.bed",
                             full.names = TRUE))
                   
     names(mecp2_cov) = c("IgG_WT_Rep1_high.mCA", "MECP2_WT_Rep1_high.mCA", "IgG_WT_Rep2_high.mCA", "MECP2_WT_Rep2_high.mCA",
@@ -662,10 +675,10 @@ dir.create("../..//Figures", showWarnings = FALSE)
 
     # calculate mCA on MECP2 peaks
     # Load genome wide CA methylation BSMap data
-    load('/archive/OBI/Neuroinformatics_Core/Stroud_lab/shared/MECP2_project_Gyan/8wk_CTX_Stroud2017_mm10_BSmap_CA.RData',verbose = TRUE)
+    #load('/archive/OBI/Neuroinformatics_Core/Stroud_lab/shared/MECP2_project_Gyan/8wk_CTX_Stroud2017_mm10_BSmap_CA.RData',verbose = TRUE)
     geneBody_cov_meth = regionCounts(CTX_CA,geneBody.bed.GR)
     head(geneBody_cov_meth)
-    #save(file = 'results/RData/MECP2_G118E_CNR_geneBody_Coverage.RData',geneBody_cov_meth)
+    #save(file = '../../results/RData/MECP2_G118E_CNR_geneBody_Coverage.RData',geneBody_cov_meth)
 
     geneBody_cov_meth.df = getData(geneBody_cov_meth)
     geneBody_cov_meth.df$mCA = geneBody_cov_meth.df$numCs/geneBody_cov_meth.df$coverage
@@ -719,7 +732,7 @@ dir.create("../..//Figures", showWarnings = FALSE)
                   alpha=0.2,color='NA') +
       scale_fill_manual(name = "MECP2",values = c('red','black'),aesthetics = c("colour", "fill"))
 
-    ggsave('Figures/GSE243009_CNR_vs_mCA_G118E_vs_WT_corr.pdf',height = 7,width = 18)
+    ggsave('../../Figures/GSE243009_CNR_vs_mCA_G118E_vs_WT_corr.pdf',height = 7,width = 18)
 
     ```
 
@@ -771,7 +784,7 @@ dir.create("../..//Figures", showWarnings = FALSE)
       theme_test(20)+
       labs(color=NULL)+
       ylab('Motifs per base per peak')
-    ggsave('Figures/motif24_on_MECP2_peaks.pdf',height = 6,width = 14,)
+    ggsave('../../Figures/motif24_on_MECP2_peaks.pdf',height = 6,width = 14)
 
     ```
 
@@ -809,8 +822,6 @@ dir.create("../..//Figures", showWarnings = FALSE)
 
     ```{r,eval=FALSE,echo=TRUE}
 
-    load(file = "/archive/OBI/Neuroinformatics_Core/Stroud_lab/shared/MECP2_project_Gyan/8wk_CTX_Stroud2017_mm10_BSmap_CA.RData",verbose = T)
-
     MECP2_peaks = read.csv("../../results/MECP2/MECP2WT.vs.KO_overlap_MECP2WT.vs.IgG.noBlacklist_peakID_filtered.bed",sep='\t',header = F) 
     colnames(MECP2_peaks) = c('Chr','Start','End','PeakID')
     MECP2_peaks.GR = MECP2_peaks %>% GRanges() 
@@ -844,8 +855,6 @@ dir.create("../..//Figures", showWarnings = FALSE)
 
     #######################################################################################################
 
-
-    load(file = "/archive/OBI/Neuroinformatics_Core/Stroud_lab/shared/MECP2_project_Gyan/8wk_CTX_Stroud2017_mm10_BSmap_CG.RData",verbose=TRUE)
 
     CTX_CG_meth =regionCounts(CTX_CG,MECP2_peaks.GR)
     CTX_CG_meth.df = getData(CTX_CG_meth)
@@ -1007,7 +1016,7 @@ dir.create("../..//Figures", showWarnings = FALSE)
 
     # calculate mCA on MECP2 peaks
     # Load genome wide CA methylation BSMap data
-    load('/archive/OBI/Neuroinformatics_Core/Stroud_lab/shared/MECP2_project_Gyan/8wk_CTX_Stroud2017_mm10_BSmap_CA.RData',verbose = TRUE)
+    #load('/archive/OBI/Neuroinformatics_Core/Stroud_lab/shared/MECP2_project_Gyan/8wk_CTX_Stroud2017_mm10_BSmap_CA.RData',verbose = TRUE)
     geneBody_cov_meth = regionCounts(CTX_CA,geneBody.bed.GR)
     head(geneBody_cov_meth)
 
@@ -1128,7 +1137,7 @@ dir.create("../..//Figures", showWarnings = FALSE)
     names(MEP2_peakList) = MEP2_peakListNames
     MEP2_peakList.GR = lapply(MEP2_peakList, function(x) {GRanges(x)})
 
-    CTX_CA = load("/archive/OBI/Neuroinformatics_Core/Stroud_lab/shared/MECP2_project_Gyan/8wk_CTX_Stroud2017_mm10_BSmap_CA.RData")
+    #CTX_CA = load("/archive/OBI/Neuroinformatics_Core/Stroud_lab/shared/MECP2_project_Gyan/8wk_CTX_Stroud2017_mm10_BSmap_CA.RData")
 
     # mCA over Diff MECP2 peaks (DNMT3A KO vs WT)
     MECP2_mCA_mCG_GC = list()
