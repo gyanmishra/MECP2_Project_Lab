@@ -57,6 +57,7 @@ parallel multiBigwigSummary BED-file  \
 ######################################################################################################################
 # Supplementary figure 2C
 # Calculate geneBody Coverage of MECP2 CNR in DNMT3A WT and KO files
+mkdir -p ../../results/CNR_Coverage/
 ls $bigwig/*.bed | grep 'Mecp2' | grep -v 'MECP2' |\
 parallel --verbose 'bedtools map -a ../../../CUT_and_RUN/data/mm10/gencode.vM10.annotation_proteinCoding_gene_greater_than_4.5kb.bed \
 -b {} -c 5 -o sum \

@@ -217,11 +217,6 @@ plotProfile -m ../../results/MECP2_CNR_ChIPseq_comparison/MECP2mono_CUTandTAG.gz
 # Supplementary Figure 1G, H
 bash MECP2_G118E_CNR.sh
 
-# Supplementary Figure 1J
-# extract Motif2 and Motif4 from results/MECP2_motifs/MECP2_all_peaks_STREME/streme.txt
-
-annotatePeaks.pl ../../results/MECP2_motifs/MECP2_pm50_CCAC.bed mm10 \
--m ../../results/MECP2_motifs/MECP2_all_peaks_STREME/Motif24.motif -size 2000 -hist 10
 
 
 
