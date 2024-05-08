@@ -215,7 +215,7 @@ plotProfile -m ../../results/MECP2_CNR_ChIPseq_comparison/MECP2mono_CUTandTAG.gz
 
 ######################################################################################################################
 # Supplementary Figure 1G, H
-bash MECP2_G118E_CNR.sh
+bash MECP2_G118E_CNR.sh $bigwig
 
 
 

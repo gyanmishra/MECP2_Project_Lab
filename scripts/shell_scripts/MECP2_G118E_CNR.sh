@@ -8,7 +8,7 @@ module load wiggletools
 module load bedtools/2.29.2
 
 
-$bigwig=$1 
+bigwig=$1 
 
 ##########################################################################################################
 # Plot Average profile of MECP2 CUT&RUN (WT and G118E)
