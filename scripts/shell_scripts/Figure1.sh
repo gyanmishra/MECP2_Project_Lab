@@ -15,7 +15,7 @@ module load homer/4.10.4
 bigwig=$1
 
 mkdir -p ../../results/MECP2/
-mkdir -p ../../results/Figures
+mkdir -p ../../Figures
 
 # Figure 1C
 computeMatrix reference-point \
@@ -43,7 +43,7 @@ plotHeatmap -m ../../results/MECP2/MECP2WT.vs.KO_overlap_MECP2WT.vs.IgG.noBlackl
 # Supplementary Figure 1A
 
 # compare genome-wide coverage of MECP2 CUT&RUN and MECP2 ChIPSeq (Boxer et al. 2020) samples.
-mkdir -p ../../resutls/MECP2_CNR_ChIPseq_comparison
+mkdir -p ../../results/MECP2_CNR_ChIPseq_comparison
 
 multiBigwigSummary bins \
 -b $bigwig/7wk_CTX_MECP2_over_IgG_CNR_HS031219_N031419.bw \
