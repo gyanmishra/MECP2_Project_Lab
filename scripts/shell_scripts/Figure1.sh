@@ -77,7 +77,7 @@ computeMatrix reference-point \
         $bigwig/9wk_CTX_MECP2_over_IgG_CNR_HS031219_N031419.bw \
         $bigWig/SRR10356997_98_over_SRR10357005_06.bw \
         $bigWig/SRR10357001_02_over_SRR10357005_06.bw \
-        ../../data/GSE67293/GSM1643934-GSM1643939/GSM1643934_MECP2_over_GSM1643935_INPUT.bw \
+        $bigWig/GSM1643934_MECP2_over_GSM1643935_INPUT.bw \
 -R  ../../results/MECP2/MECP2WT.vs.KO_overlap_MECP2WT.vs.IgG.noBlacklist_filtered.bed \
 --referencePoint center \
 -p "max/2" \
