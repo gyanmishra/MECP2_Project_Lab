@@ -48,8 +48,8 @@ mkdir -p ../../results/MECP2_CNR_ChIPseq_comparison
 multiBigwigSummary bins \
 -b $bigwig/7wk_CTX_MECP2_over_IgG_CNR_HS031219_N031419.bw \
 $bigwig/9wk_CTX_MECP2_over_IgG_CNR_HS031219_N031419.bw \
-$bigWig/SRR10356997_98_over_SRR10357005_06.bw \
-$bigWig/SRR10357001_02_over_SRR10357005_06.bw \
+$bigwig/SRR10356997_98_over_SRR10357005_06.bw \
+$bigwig/SRR10357001_02_over_SRR10357005_06.bw \
 --labels "MECP2 CNR R1" "MECP2 CNR R2" "MECP2 ChIPseq Ab1" "MECP2 ChIPseq Ab2" \
 --blackListFileName ../../data/mm10/mm10.blacklist.bed \
 -out ../../results/MECP2_CNR_ChIPseq_comparison/MECP2_CNR_ChIPseq_multiBigWigOut.npz \
@@ -75,9 +75,9 @@ computeMatrix reference-point \
 -S \
         $bigwig/7wk_CTX_MECP2_over_IgG_CNR_HS031219_N031419.bw \
         $bigwig/9wk_CTX_MECP2_over_IgG_CNR_HS031219_N031419.bw \
-        $bigWig/SRR10356997_98_over_SRR10357005_06.bw \
-        $bigWig/SRR10357001_02_over_SRR10357005_06.bw \
-        $bigWig/GSM1643934_MECP2_over_GSM1643935_INPUT.bw \
+        $bigwig/SRR10356997_98_over_SRR10357005_06.bw \
+        $bigwig/SRR10357001_02_over_SRR10357005_06.bw \
+        $bigwig/GSM1643934_MECP2_over_GSM1643935_INPUT.bw \
 -R  ../../results/MECP2/MECP2WT.vs.KO_overlap_MECP2WT.vs.IgG.noBlacklist_filtered.bed \
 --referencePoint center \
 -p "max/2" \
