@@ -6,7 +6,7 @@
 # Load below modules to execute the commands. 
 module load parallel/20150122
 module load bedtools/2.29.2
-module load deeptools/3.5.0
+#module load deeptools/3.5.0
 module load bedops/2.4.14
 module load UCSC_userApps/v317
 module load homer/4.10.4
