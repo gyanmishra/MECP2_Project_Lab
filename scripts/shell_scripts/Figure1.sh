@@ -64,9 +64,9 @@ plotCorrelation \
 --plotTitle "Pearson Correlation of Average Scores Per bin" \
 --whatToPlot scatterplot \
 -o ../../Figures/MECP2_CNR_ChIPseq_multiBigWigOut.pdf   \
---outFileCorMatrix ../../results/MECP2_CNR_ChIPseq_comparison/MECP2_CNR_ChIPseq_multiBigWigOut_PearsonCorr_bigwigScores.tab \
---xRange -1 2 \
---yRange -1 2
+--outFileCorMatrix ../../results/MECP2_CNR_ChIPseq_comparison/MECP2_CNR_ChIPseq_multiBigWigOut_PearsonCorr_bigwigScores.tab
+#--xRange -1 2 \
+#--yRange -1 2
 
 ######################################################################################################################
 # Supplementary Figure 1B
@@ -166,7 +166,7 @@ $bigwig/Adult_CTX_MECP2_10_Native_CNR_YT042919_N050119.bw \
 
 
 plotProfile -m ../../results/MECP2/H3_Native_CNR_on_MECP2.gz \
--out ../../Figures/MECP2/H3_Native_CNR_on_MECP2.pdf \
+-out ../../Figures/H3_Native_CNR_on_MECP2.pdf \
 --samplesLabel  "H3 (0.5 Native)" "IgG (0.5 Native 2h)" "IgG (0.5 Native)" "IgG (0.5 Native lyse)" \
                 "MECP2 (0.5 Native 2h)" "MECP2 (0.5 Native)" "MECP2 (0.5 Native lyse)" "MECP2 (10 Native)" \
 --perGroup \
