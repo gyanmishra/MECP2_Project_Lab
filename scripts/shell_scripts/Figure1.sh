@@ -86,7 +86,7 @@ computeMatrix reference-point \
 -o ../../results/MECP2_CNR_ChIPseq_comparison/GSE139509_MECP2_CNR.gz
 
 plotProfile -m ../../results/MECP2_CNR_ChIPseq_comparison/GSE139509_MECP2_CNR.gz \
--out ../../Figures/MECP2_CNR_ChIPseq_comparison/GSE139509_MECP2_CNR.AvgProfile.pdf \
+-out ../../Figures/GSE139509_MECP2_CNR.AvgProfile.pdf \
 --samplesLabel  "7wk MECP2 CUT&RUN" "9wk MECP2 CUT&RUN" \
 "MECP2 ChIPseq Ab1 (Forebrain)" "MECP2 ChIPseq Ab2 (Forebrain)" "MECP2 ChIPseq (FC1)" \
 --perGroup \
@@ -112,7 +112,7 @@ $bigwig/GSM6593496_72.SpikeInNormalized.bw \
 -o ../../results/MECP2_CNR_ChIPseq_comparison/GSE213752_MECP2_CNR.gz
 
 plotProfile -m ../../results/MECP2_CNR_ChIPseq_comparison/GSE213752_MECP2_CNR.gz \
--out ../../Figures/MECP2_CNR_ChIPseq_comparison/GSE213752_MECP2_CNR.AvgProfile.pdf \
+-out ../../Figures/GSE213752_MECP2_CNR.AvgProfile.pdf \
 --perGroup \
 --yAxisLabel "Normalized Coverage" \
 --plotTitle "" \
