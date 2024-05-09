@@ -46,6 +46,6 @@ $ cd MECP2_Project_Lab/scripts/shell_scripts/
 [shell_script]$ bash Supplementary_figure_9.sh 
 ```
 
-**Step4 :** open `R/MECP2_project.qmd` in Rstudio
+**Step4 :** open [R/MECP2_project.qmd](https://rpubs.com/gyanprakash47/1183327) in Rstudio
 
 Run all the code one by one for each figure including data processing step. 

@@ -29,10 +29,10 @@ knitr:
 This document encapsulates the R code employed for the comprehensive quantitative, integrative, and statistical analysis of the datasets outlined in the study.
 
 |            |                                                                      |                                                                                                           |
-|------------------|---------------------|---------------------------------|
+|-------|-----------------------------------------------|------------------------------------|
 | **SI. No** | **Sequencing data type**                                             | **Source**                                                                                                |
 | 1\.        | MECP2 CUT&RUN (Adult Brain Cortex of *Mecp2* WT and KO mice)         | [GSE150538](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE150538)                                 |
-| 2\.        | MECP2 CUT&RUN (Adult hippocampus of *MECP2*-TG1, *Mecp2* KO, and WT) | [GSE213752](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE213752)                                 |
+| 2\.        | MECP2 CUT&RUN (Adult hippocampus of *Mecp2*-TG1, *Mecp2* KO, and WT) | [GSE213752](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE213752)                                 |
 | 3.         | MECP2 ChIP-seq                                                       | [GSE67293](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67293)                                   |
 | 4.         | MECP2 ChIP-seq                                                       | [GSE139509](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE139509)                                 |
 | 5\.        | BS-seq (Brain Cortex of 10 week old DNMT3a cKO and WT mice)          | [GSE103214](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE103214)                                 |
@@ -86,10 +86,6 @@ library(GeneOverlap)
 library(ggvenn)
 txdb = TxDb.Mmusculus.UCSC.mm10.knownGene
 })
-```
-
-```{r}
-getwd()
 ```
 
 ```{r,evl=FALSE, echo=TRUE,include=TRUE}
